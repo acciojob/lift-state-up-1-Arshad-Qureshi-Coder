@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className="parent">
         {/* Do not remove the main div */}
-        <h1>parent Component</h1>
+        <h1>Parent Component</h1>
         <ChildComponent showModal = {showModal} ClickHandel = {ClickHandel} />
     </div>
   );
